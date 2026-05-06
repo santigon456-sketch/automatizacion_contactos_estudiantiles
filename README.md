@@ -24,6 +24,17 @@ En lugar de proceder con la carga manual, desarrollé un flujo de **Web Scraping
 * **Integridad de los Datos:** Se garantizó un **100% de precisión** en los contactos obtenidos, eliminando errores de "copiar y pegar".
 * **Mentalidad Data-Driven:** Demostración de capacidad para pivotar ante tareas urgentes y aplicar soluciones técnicas que optimizan los recursos de la facultad.
 
+  ### 1. Inicialización y Alimentación de Datos
+![Inicio del flujo](img/Captura%20de%20pantalla%202026-05-06%20125803.jpg)
+
+### 2. Extracción con Expresiones Regulares (RegEx)
+![Uso de Regex](img/Captura%20de%20pantalla%202026-05-06%20125846.jpg)
+
+### 3. Escritura Dinámica en Excel
+![Escritura en Excel](img/Captura%20de%20pantalla%202026-05-06%20125832.jpg)
+
+
+
 ## 🧠 Lecciones Aprendidas
 Este proyecto reforzó mi capacidad para manejar **selectores dinámicos** y tiempos de espera en automatizaciones web, habilidades críticas para cualquier profesional que trabaje con flujos de datos e interoperabilidad entre sistemas antiguos y herramientas modernas.
 
