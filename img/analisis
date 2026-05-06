@@ -1,18 +1,8 @@
-## 🔍 Análisis del Código (Highlights Técnicos)
+### 1. Inicialización y Alimentación de Datos
+![Inicio del flujo](img/Captura%20de%20pantalla%202026-05-06%20125803.jpg)
 
-A continuación, destaco tres componentes clave del flujo que demuestran la lógica aplicada para resolver los obstáculos del sistema:
+### 2. Extracción con Expresiones Regulares (RegEx)
+![Uso de Regex](img/Captura%20de%20pantalla%202026-05-06%20125846.jpg)
 
-### 1. Inicialización y Alimentación de Datos (Data Feeding)
-El flujo comienza vinculándose a una instancia de Excel preexistente e inicializando un contador de `filas` en 2 (para respetar los encabezados). A partir de ahí, un bucle `For each` itera sobre cada alumno, tomando su **DNI** para realizar la búsqueda en el sistema Guaraní.
-
-![Inicio del flujo y bucle](img/Captura_3.jpg) *(Asegúrate de ponerle el nombre correcto a tu tercera captura)*
-
-### 2. Extracción Inteligente con Expresiones Regulares (RegEx)
-Dado que el portal del SIU Guaraní devuelve un bloque de texto no estructurado, el paso de "Analizar texto" no depende de posiciones fijas. En su lugar, implementé una **Expresión Regular (RegEx)** (`[a-zA-Z0-9.-_]+@[a-zA-Z0-9.-]+...`) para identificar y aislar matemáticamente cualquier cadena de texto que cumpla con el formato de un correo electrónico.
-
-![Uso de Regex para extracción](img/Captura_1.jpg) *(Asegúrate de ponerle el nombre correcto a tu primera captura)*
-
-### 3. Escritura Dinámica y Optimización de Navegación
-Una vez que el RegEx encuentra el correo (variable `Match`), el flujo lo escribe exactamente en la columna 'D' de la fila correspondiente al alumno actual en Excel. Además, utilicé atajos de teclado del sistema (ej. `Alt + Shift + V`) para acelerar la navegación y hacer el bot más estable que usando clics de mouse.
-
-![Escritura en Excel y atajos](img/Captura_2.jpg) *(Asegúrate de ponerle el nombre correcto a tu segunda captura)*
+### 3. Escritura Dinámica en Excel
+![Escritura en Excel](img/Captura%20de%20pantalla%202026-05-06%20125832.jpg)
