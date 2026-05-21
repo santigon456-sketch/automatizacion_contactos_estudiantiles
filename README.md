@@ -1,28 +1,67 @@
 # ⚡ Agilidad en extraccion de datos: Consolidación Automatizada de Contactos Académicos
+# Automatización de Contactos Estudiantiles
 
-Este repositorio contiene un flujo de automatización bajo demanda (ad-hoc) desarrollado en **Power Automate Desktop**. El objetivo fue resolver un requerimiento urgente de gestión administrativa: la extracción masiva de correos institucionales desde un sistema de gestión académica (SIU Guaraní).
+---
 
-## 🎯 El Desafío: "Sprint" de Recopilación de Datos
-Se presentó una tarea de alta prioridad que consistía en obtener el correo electrónico de **200 alumnos** basándose en un listado de nombres y DNIs en Excel. 
+## Objetivos
+- Automatizar procesos administrativos.
+- Mejorar la organización de contactos.
+- Reducir tiempos operativos.
+- Minimizar errores manuales.
+- Optimizar el flujo de trabajo.
 
-### El obstáculo técnico:
-* **Falta de API Directa:** El sistema de gestión no permitía una exportación masiva rápida de estos datos específicos.
-* **Interfaz Dinámica:** El SIU Guaraní requiere navegación por múltiples menús y el manejo de sesiones activas que expiran.
-* **Costo de Oportunidad:** Realizar 200 búsquedas manuales representaba una jornada completa de trabajo administrativo de bajo valor añadido y alto riesgo de error de transcripción.
+---
 
-## 🛠️ Solución Técnica (RPA Scraping)
-En lugar de proceder con la carga manual, desarrollé un flujo de **Web Scraping** mediante RPA que automatizó el ciclo completo en una sola mañana.
+## Tecnologías Utilizadas
+- Python
+- Pandas
+- SQLite
+- Automatización de procesos
 
-### Componentes del Flujo:
-1. **Data Feeding:** Lectura dinámica de un archivo Excel de origen para iterar sobre cada registro.
-2. **Navegación Web Robusta:** Implementación de lógica para manejar los tiempos de respuesta del servidor y la búsqueda por parámetros específicos dentro del portal académico.
-3. **Extracción y Limpieza:** Captura de texto (Data Scraping) desde la interfaz de usuario, asegurando que el correo electrónico capturado correspondiera exactamente al alumno buscado mediante validaciones de DNI.
-4. **Salida Estructurada:** Escritura automática de los resultados en una nueva columna del archivo Excel original.
+---
 
-## 📊 Resultados e Impacto de Negocio
-* **Eficiencia Temporal:** Lo que se estimaba como una tarea de 6-8 horas de trabajo manual, fue resuelto con un desarrollo de **3 horas** (incluyendo pruebas) y una ejecución automática de pocos minutos.
-* **Integridad de los Datos:** Se garantizó un **100% de precisión** en los contactos obtenidos, eliminando errores de "copiar y pegar".
-* **Mentalidad Data-Driven:** Demostración de capacidad para pivotar ante tareas urgentes y aplicar soluciones técnicas que optimizan los recursos de la facultad.
+## Funcionalidades
+- gestión automatizada de contactos
+- procesamiento de datos estudiantiles
+- organización estructurada de información
+- optimización de tareas repetitivas
+
+---
+
+## Problema de Negocio
+La gestión manual de grandes volúmenes de información estudiantil puede generar:
+- pérdida de tiempo
+- errores humanos
+- duplicación de tareas
+- dificultades organizativas
+
+Este proyecto busca mejorar la eficiencia operativa mediante automatización.
+
+---
+
+## Impacto del Proyecto
+La automatización permite:
+- mejorar la productividad
+- reducir carga administrativa
+- agilizar procesos internos
+- optimizar el manejo de información
+
+---
+
+## Aprendizajes
+Durante el desarrollo se fortalecieron habilidades de:
+- automatización
+- manipulación de datos
+- organización de información
+- optimización de procesos
+- resolución de problemas operativos
+
+---
+
+## Autor
+Santiago Gonzalez
+
+Perfil orientado a Data Analytics, automatización y optimización de procesos.
 
   ### 1. Inicialización y Alimentación de Datos
 ![Inicio del flujo](img/Captura%20de%20pantalla%202026-05-06%20125803.jpg)
