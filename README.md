@@ -78,4 +78,8 @@ Perfil orientado a Data Analytics, automatización y optimización de procesos.
 Este proyecto reforzó mi capacidad para manejar **selectores dinámicos** y tiempos de espera en automatizaciones web, habilidades críticas para cualquier profesional que trabaje con flujos de datos e interoperabilidad entre sistemas antiguos y herramientas modernas.
 
 ---
-*Proyecto desarrollado por Santiago Gonzalez - Analista Administrativo (FCM-UNL) & Estudiante de Ciencia de Datos e IA.*
+
+## Autor
+Santiago Gonzalez
+
+Perfil orientado a Data Analytics, automatización y optimización de procesos.
